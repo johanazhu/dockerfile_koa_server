@@ -3,7 +3,7 @@ const Koa = require('koa');
 const app = new Koa();
 
 app.use(async ctx => {
-    ctx.body = 'hello, docker'
+    ctx.body = 'hello, docker, jenkins'
 })
 
 app.listen(3010, () => {
